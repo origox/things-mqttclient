@@ -18,5 +18,4 @@ The Paho MQTT C Client need to be build and installed.
 ## Getting Started
 - git clone https://github.com/origox/things-mqttclient.git
 - cd things-mqttclient; make clean; make all
-
-## API
+- ./mqttpub -t TOPIC -h tcp://localhost:1883 -u USER -p PASSWORD -m PAYLOAD
